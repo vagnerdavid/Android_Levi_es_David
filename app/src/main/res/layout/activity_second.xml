@@ -12,9 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Köszönjük a vásárlást!"
         android:layout_marginTop="30dp"
-        android:textSize="30dp"
+        android:text="Terméke megrendelésre került!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labeled"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
         />
 
 </RelativeLayout>
